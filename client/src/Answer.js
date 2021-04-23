@@ -19,7 +19,7 @@ export default function Answer(props){
           })
           .then(response => console.log(response.json()))
           .then(data => {
-            console.log("data: " + data);
+            //console.log("data: " + data);
           })
           .catch((error) => {
             console.error('Error:', error);
